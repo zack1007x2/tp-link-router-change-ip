@@ -50,7 +50,7 @@ def hello():
 
 	password = driver.find_element_by_id('pcPassword')
 	password.clear()
-	password.send_keys('22642218')
+	password.send_keys('22642218') 
 	driver.find_element_by_id('loginBtn').click()
 	
 	# time.sleep(5)
